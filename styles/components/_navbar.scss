@@ -1,0 +1,15 @@
+.nav__container {
+    background-color: $primary-color;
+    display: flex;
+    font-size: 1.25rem;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.nav__logo {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}

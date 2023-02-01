@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/1d615c8138.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <title>V->Arrow | Dieta</title>
+</head>
+<body>
+    <nav class="nav__container">
+        <div class="mobile-menu"><i class="fa-solid fa-bars"></i></div>
+        <a href="#" class="nav__logo">V_ARROW</a>
+        <div><i class="fa-solid fa-user"></i></div>
+
+        <aside class="menu__container">
+            <ul class="menu__container-list">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./diet.html">Dieta</a></li>
+                <li><a href="./training.html">Treino</a></li>
+            </ul>
+        </aside>
+    </nav>
+    <header>
+        <h1 class="title__diet">Plano Alimentar</h1>
+        <section class="macros__container">
+            <div class="macros__container-items">
+
+            </div>
+            <div class="macro__total">
+
+            </div>
+        </section>
+
+        <div class="weight__div">
+            <label for="weight">Peso:</label>
+            <input type="number" id="weight">
+        </div>
+
+        <h2 class="subtitle"></h2>
+    </header>
+    <main>
+        <label for="diet-plan" class="diet-plan__name">Adicionar Refeição</label>
+        <div class="input__container">
+            <input type="text" name="diet-plan" class="input" placeholder="Digite nome da refeição ex: Cafe da manhã...">
+            <button class="btn">OK</button>
+        </div>
+
+        <section class="tables">
+            
+        </section>
+    </main>
+    <footer class="footer__container">
+        <p>Voodoo</p>
+    </footer>
+
+    <script type="module" src="./scripts/pages/diet/dietPlan.js"></script>
+    <script type="module" src="./scripts/pages/diet/macros.js"></script>
+
+</body>
+</html>

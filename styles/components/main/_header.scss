@@ -1,0 +1,16 @@
+.header__container {
+    background-color: $primary-color;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+    h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    p {
+        margin-bottom: 0.5rem;
+        font-weight: 300;
+    }
+}

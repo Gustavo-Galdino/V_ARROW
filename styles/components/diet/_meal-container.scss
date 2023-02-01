@@ -1,0 +1,121 @@
+.diet__container, .training__container {
+    background-color: $primary-color;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    .diet__ul, .training__ul {
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: .5rem;
+        .diet__container-list, .training__container-list {
+            margin-top: 1rem;
+            .diet__list, .training__list {
+                align-items: center;
+                background-color: white;
+                border-radius: 6px;
+                display: flex;
+                font-weight: 400;
+                padding: .25rem;
+                text-transform: lowercase;
+                width: 100%;
+                margin-bottom: 1rem;
+                justify-content: space-around;
+                .diet__list-name, .training__list-name{
+                    width: 30%;
+                    margin-right: .5rem;
+                    .name {
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+                .diet__list-infos, .training__list-infos {
+                    display: flex;
+                    column-gap: .25rem;
+                    text-transform: uppercase;
+                    padding: .5rem;
+                }
+                .deleteBtn {
+                    border: none;
+                    background-color: white;
+                    &:hover {
+                        cursor: pointer; 
+                        opacity: 80%;
+                     }
+                }
+            }
+        }
+    }
+    .addBtn, .deleteBtn__Ul {
+        margin-right: 1rem;
+        border: none;
+        background: none;
+        font-size: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        &:hover {
+           cursor: pointer; 
+           opacity: 80%;
+        }
+    }
+}
+
+@media screen and (min-width: 810px) {
+    .diet__container, .training__container  {
+        width: 80vw;
+        margin: 0 auto;
+        display: grid;
+        margin-bottom: 1rem;
+        grid-template-areas: 
+            "title"
+            "lists"
+            "buttons";
+        .div__ul-name, .training__ul-name {
+            grid-area: tittle;
+        }
+        .grid__container-list {
+            grid-area: lists;
+        }
+        .addBtn, .deleteBtn__Ul {
+            grid-area: buttons;
+        }
+        .addBtn {
+            justify-self: flex-start;
+        }
+        .deleteBtn__Ul {
+            justify-self: flex-end;
+        }
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .tables {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+
+    .diet__container, .training__container  {
+        width: 28%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-areas: 
+            "title"
+            "lists"
+            "buttons";
+        .div__ul-name, .training__ul-name {
+            grid-area: tittle;
+        }
+        .grid__container-list {
+            grid-area: lists;
+        }
+        .addBtn, .deleteBtn__Ul {
+            grid-area: buttons;
+        }
+        .addBtn {
+            justify-self: flex-start;
+        }
+        .deleteBtn__Ul {
+            justify-self: flex-end;
+        }
+    }
+}

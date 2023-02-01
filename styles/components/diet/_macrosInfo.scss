@@ -1,0 +1,71 @@
+.title__diet {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 2rem;
+}
+
+.macros__container {
+    background-color: $primary-color;
+    border-radius: 16px;
+    display: flex;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 80vw;
+    .macros__container-items{
+        width: 60%;
+        border-right: 3px solid black;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        .macro__item {
+            line-height: 1.75rem;
+        }
+    }
+    .macro__total {
+        align-self: center;
+        line-height: 1.75rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.weight__div {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    align-items: center;
+    label {
+        margin-right: 2px;
+    }
+    #weight {
+
+        text-align: center;
+        width: 50px;
+    }
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 810px) {
+    .macros__container {
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .macros__container {
+        width: 50vw;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .macros__container-items {
+        margin-left: 1rem;
+        width: 50%;
+    }
+}
