@@ -2,21 +2,27 @@
 
 Projeto criado para consolidar estudo de html, css e javascript.
 
-## Pagina Inicial
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **V_ARROW**
+| :label: Tecnologias | javascript, html, sass
+| :rocket: URL         | https://v-arrow.vercel.app/
+| :fire: Desafio     | Projeto pessoal
 
-![mobile](https://user-images.githubusercontent.com/108241624/216082969-2cdc970c-2999-4ad9-8063-e49750d52f8f.png)
-![desktop](https://user-images.githubusercontent.com/108241624/216083152-b985b055-f17e-4d48-978b-930b64313307.png)
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![desktop](https://user-images.githubusercontent.com/108241624/216084154-78cd2221-997b-49e1-8662-37c61df190d1.png#vitrinedev)
 
-## Pagina Plano Alimentar
+## Detalhes do projeto
 
-![mobile](https://user-images.githubusercontent.com/108241624/216084537-202121ef-7e40-46fb-9ecf-9a918aa6ed81.png)
-![tablet](https://user-images.githubusercontent.com/108241624/216084310-168e13be-8bbb-418b-a580-0bf1ccaf07b8.png)
-![desktop](https://user-images.githubusercontent.com/108241624/216084154-78cd2221-997b-49e1-8662-37c61df190d1.png)
+Projeto feito com html, css e javascript puro, onde tentei colocar um pouco de cada conhecimento adquirido.
+Meu objetivo era entender ao máximo a base antes de prosseguir para alguém framework, já sinto confiança para inciar meus estudos em react e esse sera meu próximo passo. A ideia é utilizar o mesmo projeto e evoluir com base nos novos conhecimentos adquiridos, conseguindo assim deixar um site completo e utilizável.
 
-## Pagina Plano de Treino
+### Pagina Inicial
+![Gravação de tela home](https://user-images.githubusercontent.com/108241624/216321664-07bff146-ee04-45b9-a5a2-edf80559729a.gif)
 
-![mobile](https://user-images.githubusercontent.com/108241624/216084673-0b90cd82-686f-4848-8ef7-f26b14ffbb4e.png)
-![tablet](https://user-images.githubusercontent.com/108241624/216084782-d4957e79-e9e4-47b7-8f18-5dfb060da716.png)
-![desktop](https://user-images.githubusercontent.com/108241624/216084881-88a20c31-609d-464d-9efc-f901897dd2c2.png)
+### Pagina Plano Alimentar
+![Gravação de tela de dieta](https://user-images.githubusercontent.com/108241624/216321564-5f4a7aff-cacd-49b7-91ac-50d8dd462b58.gif)
 
-### Link Vercel : https://v-arrow.vercel.app/index.html
+### Pagina Plano de Treino
+![Gravação de tela Treino](https://user-images.githubusercontent.com/108241624/216321429-0ff46c24-ce15-435f-b819-836061decf21.gif)
+
